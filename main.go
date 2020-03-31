@@ -12,7 +12,7 @@ func main() {
 
 	outPath := ""
 	deep := 2
-	flag.StringVar(&outPath, "o", "./", "output dir")
+	flag.StringVar(&outPath, "o", "./tmp", "output path")
 	flag.IntVar(&deep, "d", 1, "-d 1")
 	flag.Parse()
 

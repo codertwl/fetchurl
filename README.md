@@ -1,7 +1,7 @@
 # fetchurl
 simple fetch urls from net
 
-# usage
+## usage
 ./fetchurl -o [your output dir] -d [search deep]
 <br>
 <br>

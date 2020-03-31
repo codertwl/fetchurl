@@ -4,7 +4,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/codertwl/geneurl/logic"
+	"github.com/codertwl/fetchurl/logic"
 	"os"
 )
 

@@ -1,4 +1,4 @@
-module github.com/codertwl/geneurl
+module github.com/codertwl/fetchurl
 
 require github.com/PuerkitoBio/goquery v1.5.2-0.20200224233432-844d6bd46b29
 

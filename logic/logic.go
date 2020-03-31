@@ -43,7 +43,8 @@ func DoFetch(url string, leftDeep int, mapUrl map[string]bool, fp *os.File) {
 			return
 		}
 
-		href = strings.TrimSpace(href)
+		href = strings.Replace(href, " ", "", -1)
+		href = strings.Replace(href, "\n", "", -1)
 		if !isValidUrl(href) {
 			return
 		}
